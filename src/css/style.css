@@ -1,0 +1,290 @@
+/* 最小宽度 */
+
+.min-width {
+    min-width: 1200px
+}
+
+/* 最大宽度 */
+
+.max-width {
+    max-width: 1200px
+}
+
+.maxBox {
+    max-width: 1200px;
+    min-width: 1200px
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.depict {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid;
+    border-color: #e8e8ee;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.depict::before {
+    content: " ";
+    position: absolute;
+    left: 1px;
+    top: 9px;
+    width: 8px;
+    height: 21px;
+    background: #0099FF;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.mainConter {
+    width: 1200px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.barPirk {
+    background: #DCDFE6;
+}
+
+.barBlue {
+    background: #409eff;
+    color: #fff;
+}
+
+.barb {
+    line-height: 45px;
+}
+
+/* ---------------------------- */
+
+/*
+ 主色调色号#E62827 
+ */
+
+.themeColor {
+    background: #E62827 !important;
+}
+
+.themeColorTxt {
+    color: #E62827 !important;
+}
+
+.is-finish,
+.el-select-dropdown__item.selected {
+    color: #E62827 !important;
+}
+
+.el-input.is-active .el-input__inner,
+.el-input__inner:focus {
+    border-color: #E62827 !important;
+}
+
+
+
+.depict::before {
+    background: #E62827 !important;
+}
+
+.el-button--primary.is-active,
+.el-button--primary:active {
+    background: #E62827 !important;
+    border-color: #E62827 !important;
+    color: #fff;
+}
+
+.el-button--primary:focus,
+.el-button--primary:hover {
+    background: #eb5352 !important;
+    border-color: #eb5352 !important;
+    color: #fff;
+}
+
+.el-button--primary {
+    color: #fff;
+    background-color: #E62827 !important;
+    border-color: #E62827 !important;
+}
+
+.el-step__title.is-finish,
+.el-step__head.is-finish {
+    border-color: #E62827 !important;
+    color: #E62827 !important;
+}
+
+.el-form-item.is-required>.el-form-item__label:before {
+    content: "*";
+    color: #f56c6c !important;
+    margin-right: 4px;
+}
+
+.el-dropdown-link[data-v-48545647] {
+    color: #606266 !important;
+}
+
+.el-dropdown-menu__item:focus,
+.el-dropdown-menu__item:not(.is-disabled):hover {
+    background-color: #ecf5ff;
+    color: #E62827 !important;
+}
+
+.el-input__inner:hover {
+    color: #E62827 !important;
+}
+
+.el-form-item__content {
+    margin-left: 0 !important;
+}
+
+.borderInit .el-input__inner {
+    border: 1px solid #ffffff !important;
+}
+
+.borderInit .el-input__inner:hover {
+    border: 1px solid #E62827 !important;
+    color: #E62827 !important;
+}
+
+.uploadImg .avatar-uploader-icon {
+    width: 398px !important;
+    height: 218px !important;
+    line-height: 220px !important;
+    border: 1px dashed #d9d9d9 !important;
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.uploadImg .avatar-uploader-icon:hover,
+.vid .avatar-uploader-icon:hover {
+    border: 1px dashed #E62827 !important;
+}
+
+.uploadImg .avatar-uploader>.el-upload {
+    width: 400px !important;
+    height: 220px !important;
+    overflow: hidden;
+}
+
+.uploadImg .avatar-uploader>.el-upload .avatar {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.vid .avatar-uploader-icon {
+    width: 720px !important;
+    height: 400px !important;
+    line-height: 400px !important;
+    border: 1px dashed #d9d9d9 !important;
+    border-radius: 6px;
+}
+
+.borderList .el-textarea__inner {
+    height: 80px !important;
+}
+
+.borderList .el-textarea__inner:hover {
+    border-color: #E62827 !important;
+}
+
+/* ======================================== */
+
+.el-upload--text video {
+    border: 1px dashed #d9d9d9 !important;
+    background: #606266;
+    border-radius: 6px;
+}
+
+.uploadImg .el-upload__tip {
+    margin-top: -16px !important;
+}
+
+.uploadImg .el-form-item__error {
+    top: 63% !important;
+}
+
+.taton .el-form-item__error {
+    padding-top: 6px !important;
+    left: 15px !important;
+}
+
+.persMain .el-button--primary {
+    color: #fff;
+    background-color: #E62827 !important;
+    border-color: #E62827 !important;
+    width: 100%;
+    height: 55px;
+    margin-top: 12px;
+}
+
+.persMain .el-button--primary:hover {
+    background-color: #EB5352 !important;
+    border-color: #EB5352 !important;
+}
+
+.anniu .el-button--primary {
+    color: #fff;
+    background-color: #E62827 !important;
+    border-color: #E62827 !important;
+    width: 100%;
+    height: 55px;
+    margin-top: 12px;
+}
+
+.anniu .el-button--primary:hover {
+    background-color: #EB5352 !important;
+    border-color: #EB5352 !important;
+}
+
+/*修改等待进度条的颜色  灰色*/
+
+/*.el-steps .el-step__head.is-process ,
+.el-steps .el-step__title.is-process{
+	    color: #c0c4cc !important;
+	    border-color: #c0c4cc !important; 
+	
+}*/
+
+video::-internal-media-controls-download-button {
+    display: none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow: hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px);
+}
+
+/* .videoBox .el-upload--text{
+  width: 934px;
+  position: relative;
+  left: -106px;
+} */
+
+.uploaderBtn {
+    position: absolute;
+    left: 0px;
+    bottom: -50px;
+}
+
+.vid .el-upload--text {
+    height: 400px!important;
+}
+.vid .el-form-item__error{
+  top: 119% !important;
+}

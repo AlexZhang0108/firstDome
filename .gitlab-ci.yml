@@ -1,0 +1,46 @@
+stages:
+  - build
+  - test
+  - push
+
+dev-deploy:
+  stage: build
+  only:
+    - dev
+  tags:
+    - 21-dev-shell
+  script:
+    - source /etc/profile
+    - cnpm install --progress=true
+    - npm run build
+    - echo ===path===`pwd`
+    - echo ===ls===`ls -l`
+    - \cp -rf dist/* /opt/jsb-establish
+
+test-deploy:
+  stage: test
+  only:
+    - dev
+  tags:
+    - dev-test
+  script:
+    - source /etc/profile
+    - cnpm install --progress=true
+    - npm run build
+    - echo ===path===`pwd`
+    - echo ===ls===`ls -l`
+    - \cp -rf dist/* /opt/jsb-establish
+
+uat-deploy:
+  stage: push
+  only:
+    - dev
+  tags:
+    - 24-uat-shell
+  script:
+    - source /etc/profile
+    - cnpm install --progress=true
+    - npm run build
+    - echo ===path===`pwd`
+    - echo ===ls===`ls -l`
+    - \cp -rf dist/* /opt/jsb-establish

@@ -1,0 +1,224 @@
+/* Alex.张飞东 */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+.L {
+  float: left;
+}
+
+.R {
+  float: right;
+}
+
+.fL {
+  float: left !important;
+}
+
+.fR {
+  float: right !important;
+}
+
+.T_fL {
+  text-align: left;
+}
+
+.T_fR {
+  text-align: right;
+}
+
+.T_bold {
+  font-weight: 700;
+}
+
+.pd10 {
+  padding: 10px
+}
+
+.ptL15 {
+  padding-left: 15px
+}
+
+.pdRL10 {
+  padding-left: 10px;
+  padding-right: 10px
+}
+
+.pdTB10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mtL15 {
+  margin-left: 15px
+}
+
+.mtR25 {
+  margin-right: 25px
+}
+
+.mtT15 {
+  margin-top: 15px
+}
+
+.mtT25 {
+  margin-top: 25px
+}
+
+.mtT55 {
+  margin-top: 55px
+}
+
+.mb15 {
+  margin-bottom: 15px
+}
+
+.mb45 {
+  margin-bottom: 45px
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.size12 {
+  font-size: 12px;
+}
+
+.libName {
+  font-size: 14px;
+  color: #606266;
+}
+
+.libName::before {
+  content: "*";
+  color: #f56c6c;
+  margin-right: 4px;
+}
+
+.picTitle::before {
+  content: "*";
+  color: #f56c6c;
+  margin-right: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
