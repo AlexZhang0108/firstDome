@@ -5,6 +5,8 @@
 ## Build Setup
 
 ``` bash
+#Alex.zhang
+
 # install dependencies
 npm install
 
